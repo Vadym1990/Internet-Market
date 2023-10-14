@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+h2 {
+    text-align: center;
+    padding: 15px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(255, 246, 234);
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 0 100px;
+    list-style-type: none;
+    margin-bottom: 50px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 0;
+    justify-content: center;
+}
+
+.products__item {
+    width: 25%;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.products__item>img {
+    height: 260px;
+    // text-align: center;
+}
+
+.products__item>div:nth-child(2) {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.products__item>div:nth-child(3) {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.products__buy-panel {
+    display: flex;
+    justify-content: center;
+    gap: 0 20px;
+    margin-top: auto;
+}
+
+.products__buy-panel div {
+    display: flex;
+    gap: 0 10px
+}
+
+.photos {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0
+}
+
+@import "./contacts";
